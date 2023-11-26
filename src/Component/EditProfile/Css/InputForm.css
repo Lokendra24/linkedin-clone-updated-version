@@ -1,0 +1,25 @@
+.inputform_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputform_container>label{
+    font-size: 15px;
+}
+
+.inputform_container>input{
+   height: 40px;
+   border-radius: 5px;
+   padding: 0 15px;
+   font-size: 15px;
+   border:1px solid black;
+}
+
+.inputform_container>textarea{
+    height: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:10px 15px;
+    border:1px solid black;
+ }

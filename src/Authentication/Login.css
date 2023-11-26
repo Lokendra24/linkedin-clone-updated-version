@@ -1,0 +1,134 @@
+.signin_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 9%;
+    align-items: center;
+    position: relative;
+}
+
+.signin_container>img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.signin_container>h4{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.signin_container>p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.signin_form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signin_form>input:nth-child(1){
+    height: 45px;
+    width: 300px;
+    padding: 0 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.signin_form>input:nth-child(2){
+    height: 45px;
+    width: 300px;
+    padding: 0 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.signin_form>input:nth-child(3){
+    height: 50px;
+    width: 300px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+    color: white;
+    background-color: #0073b1;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.signin_form>input:hover:nth-child(3){
+    opacity: 0.8;
+}
+
+.hr_text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.hr_text:before {
+      content: "";
+      background: linear-gradient(to right, transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+
+.hr_text:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+      padding: 0 0.5em;
+      line-height: 1.5em;
+      color: #818078;
+      background-color: #fcfcfa; 
+}
+
+.signin_container>p:nth-of-type(2){
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.signin_container>p>span{
+    color: #0073b1;
+    cursor: pointer;
+}
+
+.home_loader{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.home_loader>img{
+    height: 30px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.linear_progress{
+    width: 15%;
+}
